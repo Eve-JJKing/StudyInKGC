@@ -60,7 +60,6 @@ public class Exercise06 {
 	//¼¦ÍÃÍ¬Áı
 	public void henAndRubbitInOneCage(){
 		int hen;
-		int rob;
 		for(hen=0;hen<=35;hen++){
 			if(hen*2+(35-hen)*4==94){
 				System.out.println("Ğ¡¼¦£º"+hen);
@@ -100,6 +99,9 @@ public class Exercise06 {
 			for (int j = 2; j < i; j++) {
 				if (i%j==0) {
 					count++;
+				}
+				if(count!=0){
+					break;
 				}
 			}
 			if(count==0){
