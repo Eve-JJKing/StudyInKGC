@@ -8,8 +8,94 @@ package com.day01.test;
 public class Test10 {
 	
 	public static void main(String[] args) {
+		/*
+		 * 学习方法
+		 */
+		for (int i = 1; i < 1000; i++) {
+			int sum = 0;
+			for (int j = 1; j < i; j++) {
+				if (i % j == 0) {
+					sum += j;
+				}
+			}
+			if(sum == i){
+				System.out.println(i);
+			}
+		}
 		
-		int sum = 0;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*int i = 1;
+		while(i<=1000){
+			
+			int[] cunshu = new int[i];
+			int index = 0;
+			//如果可以整除就说明这个数是因数，存到数组中，不能整除就继续下一次循环
+			for (int j = 1; j < i; j++) {
+				if (i%j==0) {
+					cunshu[index]=j;
+					index++;
+				}else{
+					continue;
+				}
+			}
+			
+			//将数组中的数字加起来如果是和被除数相等，就进行输出
+			int sum = 0;
+			for (int j : cunshu) {
+				sum += j;
+			}
+			if (sum == i) {
+				System.out.println(i);
+			}
+			
+			i++;
+		}*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*int sum = 0;
 		int c=1;
 		int a=1;
 		int index=0;
@@ -38,6 +124,6 @@ public class Test10 {
 			
 			c++;
 			
-		}
+		}*/
 	}
 }

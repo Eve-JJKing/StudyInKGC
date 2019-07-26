@@ -1,5 +1,4 @@
 package com.day01.test;
-import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -16,8 +15,7 @@ public class Test04 {
 		String id = scanner.next();
 		System.out.println("ÇëÊäÈëÃÜÂë£º");
 		String pwd = scanner.next();
-		Random random = new Random();
-		int cardId = (int)random.nextInt(9999);
+		int cardId = (int)(Math.random()*9000+1000);
 		System.out.println("success!");
 		System.out.println("ÓÃ»§Ãû£º"+id+"\nÃÜÂë£º"+pwd+"\n¿¨ºÅ£º"+cardId);
 	}

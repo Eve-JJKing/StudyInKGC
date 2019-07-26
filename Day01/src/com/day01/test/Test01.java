@@ -13,11 +13,11 @@ public class Test01 {
 		int score = scanner.nextInt();
 		if (score>=90 && score<=100) {
 			System.out.println("A");
-		}else if (score>=75 && score<=89) {
+		}else if (score>=75) {
 			System.out.println("B");
-		}else if (score>=60 && score<=74) {
+		}else if (score>=60) {
 			System.out.println("C");
-		}else if (score<60 && score>=0) {
+		}else if (score>=0) {
 			System.out.println("D");
 		}else{
 			System.out.println("很显然，这成绩是假滴！");
